@@ -1,0 +1,43 @@
+fieldset{
+    width:500px;
+    height:400px;
+    border-radius: 20px;
+    border-width: 5px;
+   // background-image: radial-gradient(pink ,yellow ,green ,goldenrod );
+}
+#temp_conv_heading
+{
+    color:tomato ;
+}
+.input_temp_box
+{
+    color: rgb(255, 77, 0);
+    border-radius: 30px;
+    height: 30;  
+}
+#res
+{
+    color: darkgreen;
+    height: 0;
+}
+#selectinputtemptext,#selectoutputtemptext
+{
+    width: fit-content;
+}
+#selectinputtemptext
+{
+    color: blue;
+}
+#selectoutputtemptext
+{
+    color: blueviolet;
+}
+#inputtempvaluetext
+{
+    color: darkred;
+}
+.output
+{
+   font-size: xx-large;
+    color: darkorange;
+} 

@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./tempconverter.css">
+
+</head>
+<body>
+    <center>
+    <fieldset>
+        <legend><h2 id="temp_conv_heading">Temperature Converter</h2></legend>
+        <div>
+            <h3 id="selectinputtemptext">Select the input temperature type</h3>
+            <input type="radio" id="Input_Celsius" name="intemptype" value="Celsius">
+            <label for="Input_Celsius">Celsius</label>
+            <input type="radio" id="Input_Kelvin" name="intemptype" value="Kelvin">
+            <label for="Input_Kelvin">Kelvin</label>
+            <input type="radio" id="Input_Fahrenheit" name="intemptype" value="Fahrenheit">
+            <label for="Input_Fahrenheit">Fahrenheit</label>
+            <input type="radio" id="Input_Rankine" name="intemptype" value="Rankine">
+            <label for="Input_Rankine">Rankine</label>
+            <input type="radio" id="Input_Raumer" name="intemptype" value="Raumer">
+            <label for="Input_Raumer">Raumer</label>
+           </div>
+                 <h3 id="inputtempvaluetext">Temperature you want to convert :</h3>  <input type="number" placeholder="Enter the temperature" class="input_temp_box" id="tempinputvalue"> <button onclick="convert()">Convert</button>
+            <div>
+                 <h3 id="selectoutputtemptext">Select the output temperature type</h3>
+            <input type="radio" id="Output_Celsius" name="outtemptype" value="Celsius">
+            <label for="Output_Celsius">Celsius</label>
+            <input type="radio" id="Output_Kelvin" name="outtemptype" value="Kelvin">
+            <label for="Output_Kelvin">Kelvin</label>
+            <input type="radio" id="Output_Fahrenheit" name="outtemptype" value="Fahrenheit">
+            <label for="Output_Fahrenheit">Fahrenheit</label>
+            <input type="radio" id="Output_Rankine" name="outtemptype" value="Rankine">
+            <label for="Output_Rankine">Rankine</label>
+            <input type="radio" id="Output_Raumer" name="outtemptype" value="Raumer">
+            <label for="Output_Raumer">Raumer</label>
+        </div>
+        <h2>The result is :</h2>
+        <h2 id="res"></h2>
+        <p class="output" id="output1"></p> 
+    </fieldset>
+</center>
+    <script src="./tempconverter.js">    
+    </script>
+</body>
+</html>
